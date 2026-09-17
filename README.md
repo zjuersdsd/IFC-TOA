@@ -77,7 +77,7 @@ The following fields belong to `aif_opts` in the main script. The principal manu
 | `dfTolMin` | 20 Hz | Lower bound used only when automatic tolerance selection is enabled with `dfTol=[]`. It is inactive under the default fixed tolerance of 20 Hz. |
 | `minRidgeBins` | 3 | If the frequency neighborhood contains too few bins, use the bin nearest the theoretical beat frequency and its neighbors. Fewer than three bins may be available at a frequency-axis boundary. |
 | `minValidWindowRatio` | 0.5 | Minimum valid fraction of the statistical window. The default requires at least 24 valid time samples. |
-| `energyMetricThr` | 0.15 | IFC acceptance threshold $η_IFC$. The earliest candidate meeting this threshold is selected. |
+| `energyMetricThr` | 0.15 | IFC acceptance threshold $η_{IFC}$. The earliest candidate meeting this threshold is selected. |
 | `isNormal` | `false` | Disables normalization of candidate IFC scores by their maximum; the threshold of 0.15 is applied directly. |
 | `useStabilityWeight` | `true` | Uses the complete IFC metric: energy concentration multiplied by the frequency bias and frequency fluctuation weights. |
 
